@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trem Bão Alimentos — Bacon defumado na lenha frutífera | Atacado e Consumidor</title>
+  <meta name="description" content="Primeira indústria do Vale do Aço com Selo S.I.M. Bacon defumado artesanalmente em lenha frutífera. Atacado para pizzarias, hamburguerias, bares, mercados e distribuidores.">
+  <meta name="theme-color" content="#7A1F1F">
+
+  <meta property="og:title" content="Trem Bão Alimentos — Tradição Mineira. Padrão de Indústria.">
+  <meta property="og:description" content="Bacon defumado na lenha frutífera. Primeira indústria do Vale do Aço com Selo S.I.M.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ========== RESET + BASE ========== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1A0F0F;
+      background: #F5EFE7;
+      line-height: 1.6;
+      overflow-x: hidden;
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    :root {
+      --bordo: #7A1F1F;
+      --bordo-escuro: #5A1414;
+      --bordo-profundo: #3A0A0A;
+      --dourado: #C9A04F;
+      --dourado-claro: #E0C17A;
+      --dourado-escuro: #9D7A35;
+      --creme: #F5EFE7;
+      --branco: #FFFFFF;
+      --preto: #1A0F0F;
+      --cinza: #7A6F6F;
+      --verde: #1D5F6E;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+    h1 { font-size: clamp(2.2rem, 5.5vw, 4.5rem); }
+    h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+    h3 { font-size: clamp(1.3rem, 2.5vw, 1.8rem); }
+    .eyebrow {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--dourado);
+    }
+    .lead { font-size: clamp(1.05rem, 1.8vw, 1.25rem); line-height: 1.7; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* ========== HEADER COM NAVEGAÇÃO ========== */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(58, 10, 10, 0.98);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201, 160, 79, 0.2);
+      height: 70px;
+    }
+    .header-inner {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 24px;
+      padding: 0 24px; max-width: 1400px; margin: 0 auto;
+      height: 100%;
+    }
+    .header-inner .nav { justify-self: center; }
+    .header-selo-mini {
+      font-family: 'Playfair Display', serif;
+      color: var(--dourado);
+      font-size: 0.82rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 8px 14px;
+      border: 1px solid rgba(201, 160, 79, 0.3);
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    @media (max-width: 960px) {
+      .header-inner { grid-template-columns: auto 1fr auto; }
+      .header-selo-mini { display: none; }
+    }
+    .header-logo {
+      display: flex; align-items: center; gap: 12px;
+      cursor: pointer;
+    }
+    .header-logo img {
+      height: 50px; width: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid rgba(201, 160, 79, 0.4);
+    }
+    .header-logo span {
+      color: var(--branco); font-family: 'Playfair Display', serif;
+      font-size: 1.15rem; font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .header-logo span .sub {
+      display: block; font-size: 0.6rem; font-weight: 500;
+      color: var(--dourado); letter-spacing: 0.25em;
+      text-transform: uppercase; margin-top: 2px;
+    }
+
+    .nav {
+      display: flex; align-items: center; gap: 4px;
+      list-style: none;
+    }
+    .nav a {
+      color: rgba(245, 239, 231, 0.85);
+      font-size: 0.95rem; font-weight: 500;
+      padding: 10px 18px;
+      border-radius: 4px;
+      letter-spacing: 0.03em;
+      transition: all 0.2s ease;
+      position: relative;
+      cursor: pointer;
+    }
+    .nav a:hover { color: var(--dourado-claro); }
+    .nav a.active {
+      color: var(--dourado);
+    }
+    .nav a.active::after {
+      content: ''; position: absolute;
+      bottom: 0; left: 16px; right: 16px;
+      height: 2px; background: var(--dourado);
+    }
+
+    .header-cta {
+      background: var(--dourado); color: var(--bordo-profundo);
+      padding: 10px 20px; border-radius: 6px;
+      font-weight: 600; font-size: 0.85rem;
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: all 0.2s ease;
+    }
+    .header-cta:hover { background: var(--dourado-claro); transform: translateY(-1px); }
+
+    /* Menu mobile */
+    .menu-toggle {
+      display: none; background: transparent; border: none;
+      color: var(--dourado); cursor: pointer; font-size: 1.6rem;
+      padding: 8px;
+    }
+
+    @media (max-width: 960px) {
+      .menu-toggle { display: block; }
+      .nav {
+        position: fixed; top: 70px; left: 0; right: 0;
+        background: var(--bordo-profundo);
+        flex-direction: column; align-items: stretch;
+        padding: 16px 24px;
+        border-bottom: 1px solid rgba(201, 160, 79, 0.2);
+        gap: 0;
+        transform: translateY(-120%);
+        transition: transform 0.3s ease;
+      }
+      .nav.open { transform: translateY(0); }
+      .nav a { padding: 14px 16px; font-size: 0.95rem; }
+      .nav a.active::after { display: none; }
+      .nav a.active { background: rgba(201, 160, 79, 0.1); border-radius: 4px; }
+      .header-cta { display: none; }
+      .header-logo span { font-size: 1rem; }
+      .header-logo span .sub { display: none; }
+    }
+
+    /* ========== PAGE SYSTEM ========== */
+    .page {
+      display: none;
+      min-height: calc(100vh - 130px);
+      opacity: 0;
+      animation: fadeIn 0.5s ease forwards;
+    }
+    .page.active { display: block; opacity: 1; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ========== HERO (Início) ========== */
+    .hero {
+      min-height: calc(100vh - 130px);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--branco); text-align: center;
+      padding: 40px 24px; position: relative;
+      background:
+        radial-gradient(ellipse at center top, rgba(122, 31, 31, 0.6), transparent 65%),
+        radial-gradient(ellipse at center bottom, rgba(42, 6, 6, 0.7), transparent 70%),
+        linear-gradient(180deg, #5A1414 0%, #3A0A0A 55%, #2A0606 100%);
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      width: min(92vw, 780px);
+      height: min(92vw, 780px);
+      background: url('img/logo-bordo.jpg') center/contain no-repeat;
+      opacity: 0.1;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: ''; position: absolute; inset: 0; z-index: 0;
+      background: radial-gradient(ellipse at center, transparent 40%, rgba(26, 6, 6, 0.45) 100%);
+      pointer-events: none;
+    }
+    .hero-content { max-width: 920px; position: relative; z-index: 2; width: 100%; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 16px;
+      margin-bottom: 20px;
+      font-size: 0.72rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.28em;
+      color: var(--dourado);
+    }
+    .hero-eyebrow .line {
+      display: block; width: 34px; height: 1px;
+      background: var(--dourado); opacity: 0.55;
+    }
+    .hero-brand {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700; color: var(--branco);
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      line-height: 0.95; letter-spacing: -0.02em;
+      margin-bottom: 6px;
+      text-shadow: 0 8px 50px rgba(0, 0, 0, 0.65);
+    }
+    .hero-brand-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(0.72rem, 1.2vw, 0.88rem);
+      font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.5em; color: var(--dourado);
+      margin-bottom: 8px; padding-left: 0.5em;
+    }
+    .hero-ornament {
+      display: flex; align-items: center; justify-content: center;
+      gap: 14px; margin: 14px auto;
+      color: var(--dourado); opacity: 0.9;
+    }
+    .hero-ornament .side {
+      width: 50px; height: 1px; background: var(--dourado); opacity: 0.7;
+    }
+    .hero-ornament .diamond {
+      width: 7px; height: 7px; background: var(--dourado);
+      transform: rotate(45deg);
+    }
+    .hero-subhead {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+      font-style: italic; font-weight: 400;
+      color: var(--dourado-claro);
+      margin-bottom: 14px;
+    }
+    .hero-product {
+      color: var(--branco); margin-bottom: 14px;
+      text-shadow: 0 6px 40px rgba(0, 0, 0, 0.5);
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.3rem, 2.6vw, 2rem);
+      line-height: 1.2; font-weight: 400;
+      font-style: italic; opacity: 0.95;
+    }
+    .hero-product .gold-italic {
+      color: var(--dourado); font-style: italic;
+      display: block; font-weight: 400;
+    }
+    .hero-support {
+      max-width: 640px; margin: 0 auto 24px;
+      font-size: clamp(0.88rem, 1.3vw, 0.98rem);
+      line-height: 1.6; color: #EAE3D2;
+    }
+    .hero-badges {
+      margin: 22px auto 0;
+      display: flex; align-items: stretch; justify-content: center;
+      gap: 0; flex-wrap: wrap;
+      border-top: 1px solid rgba(201, 160, 79, 0.25);
+      border-bottom: 1px solid rgba(201, 160, 79, 0.25);
+      padding: 14px 0;
+      max-width: 720px;
+    }
+    .hero-badge {
+      flex: 1; min-width: 140px; text-align: center;
+      padding: 0 18px; position: relative;
+    }
+    .hero-badge + .hero-badge::before {
+      content: ''; position: absolute; left: 0; top: 15%;
+      width: 1px; height: 70%;
+      background: rgba(201, 160, 79, 0.25);
+    }
+    .hero-badge-num {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.1rem, 2vw, 1.55rem);
+      font-weight: 700; color: var(--dourado);
+      line-height: 1; letter-spacing: 0.08em;
+      font-variant-numeric: tabular-nums;
+    }
+    .hero-badge-text {
+      font-size: 0.68rem; text-transform: uppercase;
+      letter-spacing: 0.15em; color: var(--dourado-claro);
+      margin-top: 7px; opacity: 0.9;
+    }
+    @media (max-width: 640px) {
+      .hero-badge { flex-basis: 100%; padding: 10px 0; }
+      .hero-badge + .hero-badge::before {
+        left: 10%; top: 0; width: 80%; height: 1px;
+      }
+    }
+
+    /* ========== SISTEMA DE TELAS CHEIAS ========== */
+    .screen {
+      min-height: calc(100vh - 130px);
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 30px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      scroll-snap-align: start;
+    }
+    .screen--full {
+      max-width: none;
+      padding: 0;
+    }
+    .screen--full .screen-content {
+      width: 100%; max-width: 1200px;
+      margin: 0 auto; padding: 30px 24px;
+    }
+    html { scroll-snap-type: y proximity; }
+
+    .page-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .page-header h1 {
+      color: var(--bordo-profundo);
+      margin: 12px 0 8px;
+    }
+    .page-header p {
+      color: var(--cinza);
+      font-size: 1.05rem;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    @media (max-height: 720px) {
+      .screen { padding: 20px 24px; }
+      .page-header { margin-bottom: 20px; }
+    }
+
+    /* ========== PÁGINA HISTÓRIA ========== */
+    .historia-section {
+      margin-bottom: 80px;
+    }
+    .historia-section:last-child { margin-bottom: 0; }
+
+    .osmar-grid {
+      display: grid; grid-template-columns: 1fr 1.1fr; gap: 50px;
+      align-items: center;
+    }
+    @media (max-width: 900px) { .osmar-grid { grid-template-columns: 1fr; gap: 32px; } }
+    .osmar-photo {
+      position: relative; overflow: hidden; border-radius: 4px;
+      box-shadow: 0 20px 60px rgba(58, 10, 10, 0.25);
+      max-height: 62vh;
+    }
+    .osmar-photo img {
+      filter: sepia(0.4) contrast(1.05) brightness(0.95);
+      width: 100%; height: 100%;
+      object-fit: cover; object-position: center;
+    }
+    .osmar-photo::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 60%, rgba(58, 10, 10, 0.3));
+      pointer-events: none;
+    }
+    .osmar-photo-caption {
+      position: absolute; bottom: 16px; left: 20px; right: 20px;
+      color: var(--creme); font-family: 'Playfair Display', serif;
+      font-style: italic; font-size: 0.9rem; z-index: 2;
+    }
+    .osmar-text h2 {
+      color: var(--bordo-profundo); margin-bottom: 8px;
+    }
+    .osmar-text h2 .gold {
+      color: var(--dourado-escuro); font-style: italic;
+      font-weight: 400; display: block;
+      font-size: 0.7em; margin-top: 4px;
+    }
+    .osmar-text p {
+      margin-top: 16px; font-size: 1.02rem; line-height: 1.75;
+      color: #3A1F1F;
+    }
+    .osmar-text p strong { color: var(--bordo-profundo); }
+
+    /* Citação lema (com retrato) */
+    .lema {
+      background: var(--bordo-profundo);
+      color: var(--dourado-claro);
+      padding: 60px 24px;
+      position: relative;
+      min-height: calc(100vh - 130px);
+      display: flex;
+      align-items: center; justify-content: center;
+      scroll-snap-align: start;
+    }
+    .lema-wrap {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 60px;
+      align-items: center;
+      max-width: 1100px;
+      width: 100%;
+    }
+    @media (max-width: 860px) {
+      .lema-wrap {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+      }
+    }
+    .lema-foto {
+      position: relative;
+    }
+    .lema-foto img {
+      width: clamp(220px, 28vw, 340px);
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      border: 4px solid var(--dourado);
+    }
+    .lema-foto::after {
+      content: ''; position: absolute;
+      inset: -14px;
+      border: 1px solid rgba(201, 160, 79, 0.35);
+      border-radius: 10px;
+      pointer-events: none;
+    }
+    .lema-caption {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: var(--dourado);
+      font-size: 0.85rem;
+      margin-top: 16px;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .lema-texto {
+      text-align: left;
+    }
+    @media (max-width: 860px) {
+      .lema-texto { text-align: center; }
+    }
+    .lema-frase {
+      font-family: 'Playfair Display', serif;
+      font-style: italic; font-weight: 400;
+      font-size: clamp(2.8rem, 9vw, 6rem);
+      color: var(--dourado); line-height: 1.15;
+      margin-bottom: 28px;
+      text-shadow: 0 6px 40px rgba(0, 0, 0, 0.4);
+    }
+    .lema-autor {
+      text-transform: uppercase; letter-spacing: 0.28em;
+      font-size: 0.9rem; color: var(--dourado-claro);
+    }
+    .lema-memoria {
+      margin-top: 32px; font-style: italic;
+      color: rgba(224, 193, 122, 0.75);
+      font-size: 1rem;
+    }
+
+    /* Storyboard — carrossel */
+    .sb-head {
+      text-align: center; margin-bottom: 24px;
+    }
+    .sb-head h2 {
+      color: var(--bordo-profundo); margin-top: 10px;
+    }
+    .carrossel {
+      position: relative;
+      overflow: hidden;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    .carrossel-track {
+      display: flex;
+      transition: transform 0.55s cubic-bezier(0.5, 0, 0.2, 1);
+    }
+    .slide {
+      min-width: 100%;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 36px;
+      align-items: center;
+      padding: 20px 36px;
+    }
+    @media (max-width: 780px) {
+      .slide {
+        grid-template-columns: 1fr;
+        padding: 16px 20px;
+        gap: 18px;
+        text-align: center;
+      }
+    }
+    .slide-img {
+      width: 260px; max-width: 100%;
+      border-radius: 6px; overflow: hidden;
+      box-shadow: 0 14px 36px rgba(58, 10, 10, 0.25);
+    }
+    @media (max-width: 780px) {
+      .slide-img { width: 200px; margin: 0 auto; }
+    }
+    .slide-img img { width: 100%; height: auto; display: block; }
+    .slide-content { max-width: 520px; }
+    .slide-num {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      font-weight: 900;
+      color: var(--dourado);
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    .slide-content h3 {
+      color: var(--bordo-profundo);
+      font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+    .slide-content p {
+      color: #3A1F1F;
+      font-size: clamp(0.92rem, 1.3vw, 1rem);
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+    .slide-content p strong { color: var(--bordo-profundo); }
+    .slide-quote {
+      font-style: italic;
+      color: var(--bordo) !important;
+      font-family: 'Playfair Display', serif !important;
+      font-size: clamp(1rem, 1.5vw, 1.1rem) !important;
+      border-left: 3px solid var(--dourado);
+      padding-left: 16px;
+      margin-top: 14px !important;
+    }
+    .carrossel-nav {
+      display: flex; align-items: center; justify-content: center;
+      gap: 20px; margin-top: 26px;
+    }
+    .sb-btn {
+      background: var(--bordo); color: var(--creme);
+      border: none;
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      font-size: 1.6rem; line-height: 1;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: inherit;
+      display: flex; align-items: center; justify-content: center;
+      padding-bottom: 4px;
+    }
+    .sb-btn:hover:not(:disabled) {
+      background: var(--bordo-escuro);
+      transform: scale(1.05);
+    }
+    .sb-btn:disabled { opacity: 0.25; cursor: not-allowed; }
+    .sb-dots {
+      display: flex; gap: 10px; align-items: center;
+    }
+    .dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: rgba(122, 31, 31, 0.25);
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      transition: all 0.25s ease;
+    }
+    .dot.active {
+      background: var(--dourado);
+      width: 28px;
+      border-radius: 5px;
+    }
+    .dot:hover:not(.active) { background: rgba(122, 31, 31, 0.5); }
+
+    /* Três mulheres */
+    .mulheres-head {
+      text-align: center; max-width: 820px; margin: 0 auto 48px;
+    }
+    .mulheres-head h2 {
+      color: var(--bordo-profundo); margin-top: 12px;
+    }
+    .mulheres-intro {
+      max-width: 740px; margin: 22px auto 0;
+      color: #3A1F1F; font-size: 1rem;
+      line-height: 1.75; font-style: italic;
+    }
+    .mulheres-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 50px;
+      align-items: center;
+    }
+    @media (max-width: 900px) { .mulheres-grid { grid-template-columns: 1fr; } }
+    .mulheres-image {
+      text-align: center;
+    }
+    .mulheres-image img {
+      border-radius: 6px;
+      box-shadow: 0 20px 60px rgba(58, 10, 10, 0.25);
+      max-height: 58vh; width: auto; margin: 0 auto;
+    }
+    .mulher-bloco {
+      padding: 16px 0;
+      border-left: 3px solid var(--dourado);
+      padding-left: 22px;
+      margin-bottom: 20px;
+    }
+    .mulher-bloco h3 {
+      color: var(--bordo-profundo); font-style: italic;
+      margin-bottom: 6px;
+    }
+    .mulher-bloco p {
+      font-size: 1rem; line-height: 1.7;
+      color: #3A1F1F;
+    }
+    .mulheres-fecho {
+      text-align: center; margin-top: 48px;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      color: var(--bordo); font-style: italic;
+    }
+
+    /* ========== PÁGINA SELO ========== */
+    .sabor-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 50px;
+      align-items: center;
+    }
+    @media (max-width: 900px) { .sabor-grid { grid-template-columns: 1fr; } }
+    .sabor-text h2 { color: var(--bordo-profundo); margin: 12px 0 28px; }
+    .sabor-pilares { list-style: none; }
+    .sabor-pilares li {
+      display: flex; align-items: flex-start; gap: 16px;
+      margin-bottom: 18px; padding-bottom: 18px;
+      border-bottom: 1px solid rgba(122, 31, 31, 0.12);
+      font-size: 1rem;
+    }
+    .sabor-pilares li:last-child { border-bottom: none; }
+    .sabor-pilares li::before {
+      content: '✓'; flex-shrink: 0;
+      width: 30px; height: 30px;
+      background: var(--dourado); color: var(--bordo-profundo);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 0.9rem;
+    }
+    .sabor-pilares strong { color: var(--bordo-profundo); }
+    .sabor-image img {
+      border-radius: 6px;
+      box-shadow: 0 20px 60px rgba(58, 10, 10, 0.2);
+    }
+
+    /* Selo SIM */
+    .sim-block {
+      background: var(--bordo-profundo);
+      color: var(--creme);
+      text-align: center;
+      padding: 50px 32px;
+      position: relative;
+      overflow: hidden;
+      min-height: calc(100vh - 130px);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      scroll-snap-align: start;
+    }
+    .sim-block::before {
+      content: '001'; position: absolute;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(180px, 35vw, 400px);
+      font-weight: 900; color: rgba(201, 160, 79, 0.06);
+      line-height: 1; pointer-events: none;
+      z-index: 0; letter-spacing: -0.05em;
+    }
+    .sim-inner { position: relative; z-index: 2; max-width: 900px; margin: 0 auto; }
+    .sim-selo {
+      width: 190px; height: 190px;
+      margin: 0 auto 32px;
+      border: 4px solid var(--dourado);
+      border-radius: 50%;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      color: var(--dourado);
+      font-family: 'Playfair Display', serif;
+      box-shadow: 0 0 0 10px rgba(201, 160, 79, 0.08), 0 0 40px rgba(201, 160, 79, 0.2);
+      position: relative;
+    }
+    .sim-selo::before {
+      content: ''; position: absolute; inset: -14px;
+      border: 1px solid rgba(201, 160, 79, 0.35);
+      border-radius: 50%;
+    }
+    .sim-selo .n {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    .sim-selo .sub {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      letter-spacing: 0.3em;
+      margin-top: 10px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .sim-block h2 {
+      color: var(--branco);
+      margin: 10px 0 24px;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    }
+    .sim-block h2 .gold { color: var(--dourado); font-style: italic; }
+
+    /* Hierarquia da frase */
+    .sim-intro {
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      color: #EAE3D2;
+      margin: 0 auto 24px;
+      max-width: 640px;
+      line-height: 1.6;
+    }
+    .sim-intro strong { color: var(--dourado-claro); font-weight: 700; }
+    .sim-legado {
+      font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+      color: #D9CFB8;
+      max-width: 640px;
+      margin: 0 auto 10px;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+    .sim-frase-chave {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(1.25rem, 2.3vw, 1.7rem);
+      color: var(--dourado);
+      max-width: 680px;
+      margin: 0 auto 44px;
+      line-height: 1.4;
+      position: relative;
+      padding: 8px 0;
+    }
+    .sim-cards {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    }
+    @media (max-width: 780px) { .sim-cards { grid-template-columns: 1fr; } }
+    .sim-card {
+      background: rgba(201, 160, 79, 0.08);
+      border: 1px solid rgba(201, 160, 79, 0.25);
+      padding: 24px 20px; border-radius: 6px;
+      text-align: left;
+    }
+    .sim-card-label {
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em;
+      color: var(--dourado); margin-bottom: 10px; font-weight: 600;
+    }
+    .sim-card p { color: var(--creme); font-size: 0.92rem; line-height: 1.55; }
+
+    /* ========== PÁGINA PRODUTOS ========== */
+    .bacon-hero-img {
+      border-radius: 8px; overflow: hidden;
+      margin-bottom: 40px;
+      box-shadow: 0 20px 50px rgba(58, 10, 10, 0.3);
+    }
+    .bacon-formatos {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 780px) { .bacon-formatos { grid-template-columns: 1fr; } }
+    .formato {
+      background: var(--branco);
+      padding: 28px 24px; border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(58, 10, 10, 0.08);
+      border-top: 4px solid var(--dourado);
+    }
+    .formato h3 { color: var(--bordo-profundo); margin-bottom: 8px; }
+    .formato p { color: var(--cinza); font-size: 0.92rem; }
+
+    .bacon-lenha {
+      text-align: center; padding: 36px 24px;
+      background: linear-gradient(135deg, var(--bordo) 0%, var(--bordo-escuro) 100%);
+      color: var(--creme); border-radius: 8px;
+      margin-bottom: 60px;
+    }
+    .bacon-lenha .icone { font-size: 1.8rem; margin-bottom: 10px; }
+    .bacon-lenha h3 { color: var(--dourado-claro); margin-bottom: 10px; }
+    .bacon-lenha p { color: var(--creme); font-size: 0.98rem; max-width: 560px; margin: 0 auto; line-height: 1.65; }
+
+    .linha-head {
+      text-align: center; margin-bottom: 36px;
+    }
+    .linha-head h2 { color: var(--bordo-profundo); margin: 10px 0; font-size: clamp(1.5rem, 3vw, 2.2rem); }
+
+    .linha-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;
+    }
+    @media (max-width: 900px) { .linha-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 500px) { .linha-grid { grid-template-columns: 1fr; } }
+    .produto {
+      background: var(--branco); border-radius: 8px; overflow: hidden;
+      box-shadow: 0 6px 18px rgba(58, 10, 10, 0.08);
+      transition: all 0.3s ease;
+    }
+    .produto:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(58, 10, 10, 0.15); }
+    .produto-img { aspect-ratio: 4/3; overflow: hidden; }
+    .produto-img img { width: 100%; height: 100%; object-fit: cover; }
+    .produto-info { padding: 16px 18px; }
+    .produto-info h3 { font-size: 1.02rem; color: var(--bordo-profundo); margin-bottom: 4px; }
+    .produto-tag {
+      display: inline-block; font-size: 0.66rem;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--dourado-escuro); font-weight: 600;
+    }
+
+    /* ========== PÁGINA ATACADO ========== */
+    .atacado-head {
+      text-align: center; max-width: 820px; margin: 0 auto 48px;
+    }
+    .atacado-head h1 { color: var(--bordo-profundo); margin: 10px 0 14px; }
+    .atacado-head h1 .gold { color: var(--dourado-escuro); font-style: italic; }
+    .atacado-head p { color: var(--cinza); font-size: 1.05rem; }
+
+    .atacado-pilares {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+      margin-bottom: 44px;
+    }
+    @media (max-width: 900px) { .atacado-pilares { grid-template-columns: 1fr; } }
+    .pilar {
+      background: var(--bordo-profundo); color: var(--creme);
+      border-radius: 8px; padding: 32px 26px;
+    }
+    .pilar-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem; font-weight: 900;
+      color: var(--dourado); line-height: 1;
+      margin-bottom: 14px;
+    }
+    .pilar h3 {
+      color: var(--dourado-claro);
+      text-transform: uppercase; letter-spacing: 0.05em;
+      font-size: 1.05rem; font-family: 'Inter', sans-serif;
+      font-weight: 700; margin-bottom: 10px;
+    }
+    .pilar p { color: var(--creme); font-size: 0.94rem; line-height: 1.6; }
+
+    /* Ideal para — cards de comércios */
+    .atacado-ideal-head {
+      text-align: center; margin-bottom: 32px;
+    }
+    .atacado-ideal-head h2 {
+      color: var(--bordo-profundo); margin-top: 10px;
+      font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    }
+    .comercios-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto 50px;
+    }
+    @media (max-width: 900px) { .comercios-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 500px) { .comercios-grid { grid-template-columns: repeat(2, 1fr); } }
+    .comercio-card {
+      background: var(--branco);
+      padding: 18px 14px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(58, 10, 10, 0.06);
+      border-top: 2px solid var(--dourado);
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .comercio-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(58, 10, 10, 0.12);
+    }
+    .comercio-card::before {
+      content: ''; display: block;
+      width: 24px; height: 1px;
+      background: var(--dourado);
+      margin: 2px auto 10px;
+      opacity: 0.6;
+    }
+    .comercio-nome {
+      color: var(--bordo-profundo);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+    }
+    .atacado-divider {
+      width: 50px; height: 1px;
+      background: var(--dourado);
+      opacity: 0.5;
+      margin: 24px auto;
+    }
+    .comercios-grid {
+      margin: 0 auto 24px !important;
+    }
+    .atacado-ideal-head {
+      margin-bottom: 22px !important;
+    }
+    /* Grid de depoimentos (tela 3 atacado) */
+    .estrelas-gold {
+      color: var(--dourado); font-size: 1.3rem;
+      letter-spacing: 0.2em; margin-bottom: 16px;
+    }
+    .depoimentos-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    @media (max-width: 860px) {
+      .depoimentos-grid { grid-template-columns: 1fr; }
+    }
+
+    .atacado-depoimento {
+      background: var(--branco);
+      border-radius: 8px; padding: 32px 28px;
+      box-shadow: 0 8px 24px rgba(58, 10, 10, 0.08);
+      border-top: 4px solid var(--dourado);
+      max-width: 720px; margin: 0 auto 44px;
+    }
+    .atacado-depoimento .prova-meta {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 16px; padding-bottom: 16px;
+      border-bottom: 1px solid rgba(122, 31, 31, 0.1);
+    }
+    .atacado-depoimento .prova-icon {
+      width: 40px; height: 40px; background: #f9e8e8;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; color: var(--bordo);
+    }
+    .atacado-depoimento .prova-nome { font-weight: 600; color: var(--bordo-profundo); font-size: 1rem; }
+    .atacado-depoimento .prova-tipo { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--cinza); margin-top: 2px; }
+    .atacado-depoimento .prova-stars { color: var(--dourado); margin-bottom: 10px; letter-spacing: 0.15em; font-size: 0.9rem; }
+    .atacado-depoimento .prova-texto {
+      font-family: 'Playfair Display', serif;
+      font-style: italic; font-size: 1rem;
+      line-height: 1.65; color: #3A1F1F;
+      position: relative; padding-left: 22px;
+    }
+    .atacado-depoimento .prova-texto::before {
+      content: '"'; position: absolute; left: -4px; top: -10px;
+      font-size: 3rem; color: var(--dourado);
+      font-family: 'Playfair Display', serif; line-height: 1;
+    }
+    .atacado-depoimento .prova-texto strong { font-style: normal; color: var(--bordo-profundo); font-weight: 700; }
+
+    .atacado-cta { text-align: center; }
+    .atacado-cta-screen {
+      text-align: center; max-width: 760px; margin: 0 auto;
+    }
+    .atacado-cta-screen h2 {
+      color: var(--bordo-profundo);
+      margin: 14px 0 20px;
+      font-size: clamp(1.9rem, 4.5vw, 3rem);
+      line-height: 1.2;
+    }
+    .atacado-cta-screen h2 .gold {
+      color: var(--dourado-escuro); font-style: italic;
+    }
+    .atacado-cta-sub {
+      color: #3A1F1F; font-size: 1.08rem;
+      margin-bottom: 38px; line-height: 1.7;
+    }
+    .atacado-cta-sub strong {
+      color: var(--bordo-profundo);
+      font-weight: 700;
+    }
+    /* Botão XL pulsante */
+    .btn-cta-xl {
+      padding: 22px 42px !important;
+      font-size: 1.1rem !important;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      box-shadow: 0 12px 32px rgba(201, 160, 79, 0.45) !important;
+      animation: ctaPulse 2.8s infinite;
+      border: 2px solid var(--dourado);
+    }
+    .btn-cta-xl:hover {
+      animation-play-state: paused;
+      transform: translateY(-3px) scale(1.02) !important;
+    }
+    @keyframes ctaPulse {
+      0%, 100% {
+        box-shadow: 0 12px 32px rgba(201, 160, 79, 0.4);
+      }
+      50% {
+        box-shadow: 0 16px 44px rgba(201, 160, 79, 0.7), 0 0 0 10px rgba(201, 160, 79, 0.12);
+      }
+    }
+    /* Selos de garantia embaixo do botão */
+    .atacado-garantias {
+      display: flex; justify-content: center;
+      gap: clamp(14px, 3vw, 32px);
+      margin-top: 34px;
+      flex-wrap: wrap;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.9rem;
+      color: var(--bordo-profundo);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .atacado-garantias span {
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .atacado-garantias span::before {
+      content: '✓';
+      color: var(--dourado-escuro);
+      font-weight: 900;
+    }
+
+    /* ========== PÁGINA CONTATO ========== */
+    .contato-hero {
+      background: var(--bordo-profundo);
+      color: var(--creme);
+      padding: 40px 32px;
+      min-height: calc(100vh - 130px);
+      display: flex; flex-direction: column;
+      justify-content: center;
+      scroll-snap-align: start;
+    }
+    .contato-hero-grid { max-width: 1200px; margin: 0 auto; width: 100%; }
+    .contato-hero-grid {
+      display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px;
+      align-items: center;
+    }
+    @media (max-width: 900px) { .contato-hero-grid { grid-template-columns: 1fr; } }
+    .contato-hero h1 { color: var(--branco); margin: 10px 0 16px; font-size: clamp(1.6rem, 3.5vw, 2.4rem); }
+    .contato-hero p { color: #D9CFB8; font-size: 1.02rem; line-height: 1.65; }
+    .contato-endereco {
+      margin-top: 24px; padding: 22px 24px;
+      background: rgba(201, 160, 79, 0.08);
+      border-left: 3px solid var(--dourado);
+      border-radius: 4px;
+    }
+    .contato-endereco strong {
+      color: var(--dourado-claro); display: block;
+      margin-bottom: 8px; font-size: 0.8rem;
+      text-transform: uppercase; letter-spacing: 0.12em;
+    }
+    .contato-endereco-rua { font-size: 1.08rem; color: var(--branco); line-height: 1.5; }
+    .contato-hero-image img { border-radius: 6px; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.4); }
+
+    .contato-depoimento {
+      background: var(--branco);
+      border-radius: 8px; padding: 32px 28px;
+      box-shadow: 0 8px 24px rgba(58, 10, 10, 0.08);
+      border-top: 4px solid var(--dourado);
+      max-width: 720px; margin: 0 auto 50px;
+    }
+    .contato-depoimento .prova-meta {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 16px; padding-bottom: 16px;
+      border-bottom: 1px solid rgba(122, 31, 31, 0.1);
+    }
+    .contato-depoimento .prova-icon {
+      width: 40px; height: 40px; background: var(--creme);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; color: var(--bordo);
+    }
+    .contato-depoimento .prova-nome { font-weight: 600; color: var(--bordo-profundo); font-size: 1rem; }
+    .contato-depoimento .prova-tipo { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--cinza); margin-top: 2px; }
+    .contato-depoimento .prova-stars { color: var(--dourado); margin-bottom: 10px; letter-spacing: 0.15em; font-size: 0.9rem; }
+    .contato-depoimento .prova-texto {
+      font-family: 'Playfair Display', serif;
+      font-style: italic; font-size: 1rem;
+      line-height: 1.65; color: #3A1F1F;
+      position: relative; padding-left: 22px;
+    }
+    .contato-depoimento .prova-texto::before {
+      content: '"'; position: absolute; left: -4px; top: -10px;
+      font-size: 3rem; color: var(--dourado);
+      font-family: 'Playfair Display', serif; line-height: 1;
+    }
+    .contato-depoimento .prova-texto strong { font-style: normal; color: var(--bordo-profundo); font-weight: 700; }
+
+    .contato-ctas-wrap {
+      text-align: center;
+    }
+    .contato-ctas-wrap h2 {
+      color: var(--bordo-profundo); margin-bottom: 12px;
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+    }
+    .contato-ctas-wrap h2 .gold { color: var(--dourado-escuro); font-style: italic; }
+    .contato-ctas-wrap p {
+      color: var(--cinza); margin-bottom: 32px;
+      max-width: 560px; margin-left: auto; margin-right: auto;
+    }
+    .contato-botoes {
+      display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+    }
+    .btn-cta {
+      background: var(--dourado); color: var(--bordo-profundo);
+      padding: 15px 24px; border-radius: 8px;
+      font-weight: 600; font-size: 0.94rem;
+      display: inline-flex; align-items: center; gap: 10px;
+      transition: all 0.25s ease;
+      box-shadow: 0 6px 18px rgba(201, 160, 79, 0.3);
+    }
+    .btn-cta:hover {
+      background: var(--dourado-claro); transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(201, 160, 79, 0.5);
+    }
+    .btn-cta-outline {
+      background: transparent; color: var(--bordo-profundo);
+      border: 2px solid var(--bordo); box-shadow: none;
+    }
+    .btn-cta-outline:hover {
+      background: var(--bordo); color: var(--branco);
+      border-color: var(--bordo);
+    }
+
+    /* ========== RODAPÉ FIXO (frase elegante) ========== */
+    .footer-fixed {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      z-index: 90;
+      background: var(--bordo-profundo);
+      border-top: 1px solid rgba(201, 160, 79, 0.3);
+      height: 60px;
+      display: flex; align-items: center;
+    }
+    .footer-inner {
+      max-width: 1400px; margin: 0 auto;
+      padding: 0 24px; width: 100%;
+      display: flex; align-items: center; justify-content: center;
+      gap: 18px;
+    }
+    .footer-decor {
+      width: 40px; height: 1px;
+      background: var(--dourado); opacity: 0.5;
+      display: inline-block;
+    }
+    .footer-phrase {
+      font-family: 'Inter', sans-serif;
+      color: #D9CFB8;
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .footer-phrase strong {
+      color: var(--branco);
+      font-weight: 700;
+      letter-spacing: 0.14em;
+    }
+    .footer-phrase em {
+      font-family: 'Playfair Display', serif;
+      color: var(--dourado);
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      font-variant-numeric: tabular-nums;
+    }
+    @media (max-width: 780px) {
+      .footer-phrase { font-size: 0.78rem; }
+      .footer-decor { width: 20px; }
+    }
+
+    /* ========== CANAIS DE CONTATO (página Contato) ========== */
+    .canais-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    @media (max-width: 780px) {
+      .canais-grid { grid-template-columns: 1fr; }
+    }
+    .canal-card {
+      background: var(--branco);
+      padding: 32px 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(58, 10, 10, 0.08);
+      border-top: 3px solid var(--dourado);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 240px;
+    }
+    a.canal-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(58, 10, 10, 0.15);
+    }
+    .canal-icon {
+      width: 110px; height: 110px;
+      margin: 0 auto 14px;
+      display: flex; align-items: center; justify-content: center;
+      line-height: 1;
+    }
+    .canal-icon svg {
+      width: 78px; height: 78px;
+    }
+    .canal-icon.icon-whatsapp svg { color: #25D366; }
+    .canal-icon.icon-instagram svg { color: #E1306C; }
+    .canal-icon img {
+      width: 100%; height: 100%;
+      object-fit: contain;
+    }
+    .canal-label {
+      font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.18em; color: var(--cinza);
+      font-weight: 600; margin-bottom: 10px;
+    }
+    .canal-info {
+      font-size: 1rem; color: var(--bordo-profundo);
+      font-weight: 600;
+      word-break: break-word;
+      line-height: 1.35;
+    }
+
+    /* ========== BOTÃO FLUTUANTE WHATSAPP ========== */
+    .whats-float {
+      position: fixed; bottom: 80px; right: 24px;
+      z-index: 200;
+      background: #25D366; color: white;
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.5);
+      transition: all 0.3s ease;
+      animation: pulse 2s infinite;
+    }
+    .whats-float:hover {
+      transform: scale(1.08);
+      box-shadow: 0 12px 32px rgba(37, 211, 102, 0.65);
+    }
+    .whats-float svg { width: 28px; height: 28px; }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 8px 24px rgba(37, 211, 102, 0.5); }
+      50% { box-shadow: 0 8px 24px rgba(37, 211, 102, 0.5), 0 0 0 12px rgba(37, 211, 102, 0.15); }
+    }
+    @media (max-width: 780px) {
+      .whats-float { bottom: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER COM NAVEGAÇÃO ========== -->
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo" data-page="inicio">
+      <img src="img/logo-bordo.jpg" alt="Trem Bão">
+      <span>Trem Bão</span>
+    </div>
+
+    <nav class="nav" id="mainNav">
+      <a data-page="inicio">Início</a>
+      <a data-page="historia">História</a>
+      <a data-page="selo">O Selo</a>
+      <a data-page="produtos">Produtos</a>
+      <a data-page="atacado">Atacado</a>
+      <a data-page="contato">Contato</a>
+    </nav>
+
+    <span class="header-selo-mini">S.I.M. 001</span>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<!-- ========== PÁGINA 1 — INÍCIO ========== -->
+<section id="inicio" class="page active">
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="line"></span>
+        <span>Desde o Açougue do Osmar · 1970</span>
+        <span class="line"></span>
+      </div>
+
+      <h1 class="hero-brand">Trem Bão</h1>
+      <p class="hero-brand-sub">Alimentos</p>
+
+      <div class="hero-ornament" aria-hidden="true">
+        <span class="side"></span>
+        <span class="diamond"></span>
+        <span class="side"></span>
+      </div>
+
+      <p class="hero-subhead">Tradição mineira. Padrão de indústria.</p>
+
+      <h2 class="hero-product">
+        Bacon defumado na
+        <span class="gold-italic">lenha frutífera.</span>
+      </h2>
+
+      <p class="hero-support">
+        Primeira indústria do Vale do Aço com <strong>Selo S.I.M.</strong>
+      </p>
+
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <div class="hero-badge-num">S.I.M. 001</div>
+          <div class="hero-badge-text">Primeira do Vale do Aço</div>
+        </div>
+        <div class="hero-badge">
+          <div class="hero-badge-num">Lenha Frutífera</div>
+          <div class="hero-badge-text">Defumação artesanal</div>
+        </div>
+        <div class="hero-badge">
+          <div class="hero-badge-num">1970</div>
+          <div class="hero-badge-text">Raiz mineira</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PÁGINA 2 — HISTÓRIA ========== -->
+<section id="historia" class="page">
+
+  <!-- TELA 1 — OSMAR (a raiz) -->
+  <div class="screen">
+    <div class="osmar-grid">
+      <div class="osmar-photo">
+        <img src="img/osmar-acougue.jpg" alt="Osmar no açougue, anos 70">
+        <div class="osmar-photo-caption">Osmar, nos anos 70 — o pequeno açougue em Minas que começou tudo.</div>
+      </div>
+      <div class="osmar-text">
+        <span class="eyebrow">A raiz · Nossa história começa aqui</span>
+        <h2>Osmar do Açougue.<span class="gold">Esse era o nome conhecido entre os seus clientes.</span></h2>
+        <p>
+          Nos anos 70, num pequeno açougue em Minas, Osmar começou. Não era grande. Não era moderno. Mas tinha uma coisa que todo comerciante aprendeu a respeitar: <strong>a palavra dele valia mais que papel assinado</strong>.
+        </p>
+        <p>
+          Entre os empresários da área, Osmar era referência — não porque fosse o maior, mas porque era o mais íntegro. Tratava cada cliente com o mesmo cuidado: <strong>carne de qualidade, corte preciso, encomenda sempre entregue com excelência</strong>. Era raro o cliente que, depois da primeira compra, não voltava fiel.
+        </p>
+        <p>
+          <strong>Cada carne, tratada como se fosse para a própria casa.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 2 — STORYBOARD (carrossel com 4 quadros) -->
+  <div class="screen">
+    <div class="sb-head">
+      <span class="eyebrow">A história em quatro tempos</span>
+      <h2>De um açougue a uma indústria.</h2>
+    </div>
+
+    <div class="carrossel">
+      <div class="carrossel-track" id="carrosselTrack">
+
+        <!-- SLIDE 1 -->
+        <div class="slide">
+          <div class="slide-img"><img src="img/storyboard-1.jpg" alt="Osmar jovem no pequeno açougue dos anos 70"></div>
+          <div class="slide-content">
+            <div class="slide-num">01</div>
+            <h3>O começo de tudo</h3>
+            <p>Nos anos 70, quando quase tudo era feito à mão e a palavra ainda valia mais que papel assinado, Osmar abriu seu pequeno açougue. Não era grande. Não era moderno. Mas tinha algo que nunca faltou: <strong>respeito pelo cliente e amor pelo ofício</strong>.</p>
+            <p class="slide-quote">"Carne não é só produto — é alimento, é sustento."</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="slide">
+          <div class="slide-img"><img src="img/storyboard-2.jpg" alt="Osmar mais velho, com faca e camisa do Brasil, mostrando o ofício"></div>
+          <div class="slide-content">
+            <div class="slide-num">02</div>
+            <h3>O jeito certo de fazer</h3>
+            <p>Osmar nunca correu. Ele ensinava que o tempo da carne é diferente do tempo da pressa. <strong>Corte certo. Limpeza. Silêncio. Atenção.</strong> Cada cliente era chamado pelo nome. Cada carne, tratada como se fosse para a própria casa.</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="slide">
+          <div class="slide-img"><img src="img/storyboard-3.jpg" alt="Fernanda criança com o pai no balcão do açougue"></div>
+          <div class="slide-content">
+            <div class="slide-num">03</div>
+            <h3>Fernanda cresce entre balcões</h3>
+            <p>Enquanto outras crianças aprendiam brincando na rua, Fernanda crescia entre balcões, câmaras frias e histórias repetidas todos os dias. Ela observava. Perguntava. <strong>Aprendia sem perceber.</strong> O pai não forçava — apenas ensinava pelo exemplo.</p>
+          </div>
+        </div>
+
+        <!-- SLIDE 4 -->
+        <div class="slide">
+          <div class="slide-img"><img src="img/storyboard-4.jpg" alt="Osmar e Fernanda adulta juntos, a tradição viva"></div>
+          <div class="slide-content">
+            <div class="slide-num">04</div>
+            <h3>A tradição segue viva</h3>
+            <p>Hoje, Osmar já não está mais presente. Mas o legado que ele deixou está. Após muito esforço e seguindo o lema <em>"seja forte e corajoso"</em>, Fernanda conquistou a legalização da fábrica — tornando-se a <strong>primeira indústria do Vale do Aço com Selo S.I.M.</strong></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carrossel-nav">
+      <button class="sb-btn sb-prev" id="sbPrev" aria-label="Anterior">‹</button>
+      <div class="sb-dots" id="sbDots">
+        <button class="dot active" data-slide="0" aria-label="Quadro 1"></button>
+        <button class="dot" data-slide="1" aria-label="Quadro 2"></button>
+        <button class="dot" data-slide="2" aria-label="Quadro 3"></button>
+        <button class="dot" data-slide="3" aria-label="Quadro 4"></button>
+      </div>
+      <button class="sb-btn sb-next" id="sbNext" aria-label="Próximo">›</button>
+    </div>
+  </div>
+
+  <!-- TELA 3 — FERNANDA + KEYLA -->
+  <div class="screen">
+    <div class="mulheres-head">
+      <span class="eyebrow">A construção</span>
+      <h2>Construída por duas mulheres.</h2>
+      <p class="mulheres-intro">
+        O Osmar ensinou tudo à filha — e partiu antes de ver o açougue virar indústria. A Eni, mãe da Fernanda, segue firme ao lado das meninas: sempre presente, ajudando e orientando. Foi a Fernanda e a Keyla que ergueram a Trem Bão que existe hoje.
+      </p>
+    </div>
+    <div class="mulheres-grid">
+      <div class="mulheres-image">
+        <img src="img/fernanda-keyla.jpg" alt="Fernanda e Keyla com o retrato do Osmar e o certificado S.I.M.">
+      </div>
+      <div class="mulheres-blocos">
+        <div class="mulher-bloco">
+          <h3>Fernanda</h3>
+          <p><strong>A filha do Osmar.</strong> Cresceu entre balcões. Aprendeu o ofício com o pai — cada corte, cada tempero. Quando ele partiu, transformou o açougue em indústria e conquistou o Selo S.I.M.</p>
+        </div>
+        <div class="mulher-bloco">
+          <h3>Keyla</h3>
+          <p><strong>Sócia da Fernanda e parceira de vida.</strong> Juntas, construíram uma empresa sólida. O que é casa também é negócio. O que é negócio também é casa.</p>
+        </div>
+      </div>
+    </div>
+    <p class="mulheres-fecho">Juntas — onde a tradição virou legado.</p>
+  </div>
+
+  <!-- TELA 4 — LEMA (fechamento emocional com retrato do Osmar) -->
+  <div class="lema">
+    <div class="lema-wrap">
+      <div class="lema-foto">
+        <img src="img/osmar-retrato.png" alt="Osmar — em memória">
+        <p class="lema-caption">Osmar do Açougue</p>
+      </div>
+      <div class="lema-texto">
+        <p class="lema-frase">"Seja forte e corajoso."</p>
+        <p class="lema-autor">— Lema deixado por Osmar à família</p>
+        <p class="lema-memoria">Em memória de quem plantou a raiz.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== PÁGINA 3 — O SELO (só SIM 001) ========== -->
+<section id="selo" class="page">
+
+  <!-- ÚNICA TELA — Selo SIM 001 -->
+  <div class="sim-block">
+    <div class="sim-inner">
+      <div class="sim-selo">
+        <span class="n">SIM</span>
+        <span class="sub">001</span>
+      </div>
+      <span class="eyebrow">A autoridade</span>
+      <h2>Primeira indústria do Vale do Aço com <span class="gold">Selo S.I.M.</span></h2>
+
+      <p class="sim-intro">
+        Observe o número: <strong>001</strong>. Não foi sorte — foi promessa cumprida.
+      </p>
+
+      <p class="sim-legado">Quando o selo chegou, Osmar já não estava mais aqui para ver.</p>
+      <p class="sim-frase-chave">
+        Mas foi o que ele ensinou que conquistou esse selo.
+      </p>
+      <div class="sim-cards">
+        <div class="sim-card">
+          <div class="sim-card-label">🍕 Para sua pizzaria</div>
+          <p>Produto <strong>100% legalizado</strong> — zero dor de cabeça com fiscalização. Venda tranquilo.</p>
+        </div>
+        <div class="sim-card">
+          <div class="sim-card-label">🛒 Para o seu mercado</div>
+          <p>Rótulo <strong>regularizado e aprovado</strong> — mais confiança e giro no seu mercado.</p>
+        </div>
+        <div class="sim-card">
+          <div class="sim-card-label">🚚 Para sua distribuidora</div>
+          <p><strong>Documentação completa</strong> — pronto para revenda em qualquer região.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== PÁGINA 4 — PRODUTOS ========== -->
+<section id="produtos" class="page">
+
+  <!-- TELA 1 — Linha completa (vitrine que abre a aba) -->
+  <div class="screen">
+    <div class="linha-head">
+      <span class="eyebrow">Defumados Artesanais</span>
+      <h2>Nossa família de defumados.</h2>
+    </div>
+    <div class="linha-grid">
+      <div class="produto">
+        <div class="produto-img"><img src="img/bacon-pilha.jpg" alt="Bacon em fatias"></div>
+        <div class="produto-info">
+          <h3>Bacon Paleta</h3>
+          <span class="produto-tag">Fatiado · Cubo · Manta</span>
+        </div>
+      </div>
+      <div class="produto">
+        <div class="produto-img"><img src="img/sabor-sim.jpg" alt="Bacon de Paleta 2kg"></div>
+        <div class="produto-info">
+          <h3>Bacon de Paleta 2kg</h3>
+          <span class="produto-tag">Embalagem atacado</span>
+        </div>
+      </div>
+      <div class="produto">
+        <div class="produto-img"><img src="img/torresmo.jpg" alt="Torresmo de rolo"></div>
+        <div class="produto-info">
+          <h3>Torresmo de Rolo</h3>
+          <span class="produto-tag">Pronto para o cardápio</span>
+        </div>
+      </div>
+      <div class="produto">
+        <div class="produto-img"><img src="img/frango-bacon.jpg" alt="Filé de frango com bacon"></div>
+        <div class="produto-info">
+          <h3>Frango com Bacon</h3>
+          <span class="produto-tag">Linha pronta</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 2 — De onde vem o sabor -->
+  <div class="screen">
+    <div class="sabor-grid">
+      <div class="sabor-text">
+        <span class="eyebrow">O sabor começa antes</span>
+        <h2>De onde vem o nosso sabor?</h2>
+        <ul class="sabor-pilares">
+          <li><div><strong>Lenha frutífera selecionada.</strong> Não é eucalipto. É a fruta queimada lenta, que vira aroma na carne.</div></li>
+          <li><div><strong>Cortes suínos nobres.</strong> Matéria-prima selecionada antes de entrar na câmara.</div></li>
+          <li><div><strong>Defumação artesanal e controlada.</strong> Tempo, temperatura, madeira. Com rigor de indústria.</div></li>
+          <li><div><strong>Embalagem que preserva o frescor.</strong> Vácuo profissional, rótulo em dia, validade respeitada.</div></li>
+        </ul>
+      </div>
+      <div class="sabor-image">
+        <img src="img/sabor-sim.jpg" alt="Embalagem do Bacon de Paleta com o Selo S.I.M. 001 visível">
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 3 — Bacon herói (imagem grande + título) -->
+  <div class="screen">
+    <div class="page-header">
+      <span class="eyebrow">O produto-herói</span>
+      <h1>O bacon que sua cozinha pediu.</h1>
+      <p>Crocante, suculento, defumado com calma. No formato certo para cada cozinha.</p>
+    </div>
+    <div class="bacon-hero-img">
+      <img src="img/bacon-apetitoso.jpg" alt="Bacon Trem Bão fatiado e defumado — pilha apetitosa sobre fundo bordô">
+    </div>
+  </div>
+
+  <!-- TELA 4 — Formatos + Lenha Frutífera -->
+  <div class="screen">
+    <div class="bacon-formatos">
+      <div class="formato">
+        <h3>Em Fatias</h3>
+        <p>Pronto para o sanduíche, hambúrguer, chapa. Espessura padronizada — mesma experiência em cada peça.</p>
+      </div>
+      <div class="formato">
+        <h3>Em Cubos</h3>
+        <p>Pizza, feijoada, tropeiro, saladas. Tamanho uniforme para cocção igual e apresentação profissional.</p>
+      </div>
+      <div class="formato">
+        <h3>Manta</h3>
+        <p>Para quem corta na casa. Bacon inteiro defumado, para cozinhas que querem controle total.</p>
+      </div>
+    </div>
+    <div class="bacon-lenha">
+      <div class="icone">🔥</div>
+      <h3>Por que lenha frutífera?</h3>
+      <p>
+        A maioria defuma com eucalipto. Nós não. Utilizamos lenha frutífera selecionada porque a madeira da fruta queimando devagar deixa um aroma mais delicado — e é esse sabor que fideliza o seu cliente.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== PÁGINA 5 — ATACADO ========== -->
+<section id="atacado" class="page">
+
+  <!-- TELA 1 — Intro + 3 Pilares -->
+  <div class="screen">
+    <div class="atacado-head">
+      <span class="eyebrow">Atacado · Fature Mais</span>
+      <h1>Feito para quem <span class="gold">revende.</span> Pensado para quem precisa de <span class="gold">constância.</span></h1>
+      <p>Quando o cliente volta esperando aquele sabor marcante, ele precisa encontrar exatamente o que provou da última vez.</p>
+    </div>
+    <div class="atacado-pilares">
+      <div class="pilar">
+        <div class="pilar-num">01</div>
+        <h3>Padrão é consistência</h3>
+        <p>Se o sabor muda, a experiência muda. Padronizar garante que seu cliente receba o mesmo sabor, sempre.</p>
+      </div>
+      <div class="pilar">
+        <div class="pilar-num">02</div>
+        <h3>Sabor que fideliza</h3>
+        <p>Consistência gera confiança. Confiança gera fidelização. O cliente volta porque sabe o que esperar.</p>
+      </div>
+      <div class="pilar">
+        <div class="pilar-num">03</div>
+        <h3>Documentação pronta</h3>
+        <p>Selo S.I.M., nota fiscal, rotulagem em dia. Fiscalização não é problema seu.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 2 — Ideal para + CTA + Botão (tudo junto) -->
+  <div class="screen">
+    <div class="atacado-ideal-head">
+      <span class="eyebrow">Ideal para</span>
+      <h2>O bacon que fideliza o seu cliente.</h2>
+    </div>
+    <div class="comercios-grid">
+      <div class="comercio-card">
+        <div class="comercio-nome">Pizzarias</div>
+      </div>
+      <div class="comercio-card">
+        <div class="comercio-nome">Hamburguerias</div>
+      </div>
+      <div class="comercio-card">
+        <div class="comercio-nome">Lanchonetes</div>
+      </div>
+      <div class="comercio-card">
+        <div class="comercio-nome">Bares</div>
+      </div>
+      <div class="comercio-card">
+        <div class="comercio-nome">Mercados</div>
+      </div>
+      <div class="comercio-card">
+        <div class="comercio-nome">Distribuidores</div>
+      </div>
+    </div>
+
+    <div class="atacado-divider"></div>
+
+    <div class="atacado-cta-screen">
+      <h2>Pare de vender bacon. <span class="gold">Passe a vender sabor.</span></h2>
+      <p class="atacado-cta-sub">
+        Seu cliente volta quando encontra o que provou da última vez. Com o bacon defumado na <strong>lenha frutífera da Trem Bão</strong>, ele vai querer <strong>de novo. E de novo. E de novo.</strong>
+      </p>
+      <a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site%20e%20quero%20receber%20a%20tabela%20de%20atacado%20da%20Trem%20Bão%20Alimentos." class="btn-cta btn-cta-xl" target="_blank" rel="noopener">
+        Peça agora sua tabela de atacado →
+      </a>
+      <div class="atacado-garantias">
+        <span>Resposta em minutos</span>
+        <span>Selo S.I.M. 001</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 3 — Todos os depoimentos -->
+  <div class="screen">
+    <div class="page-header">
+      <div class="estrelas-gold">★ ★ ★ ★ ★</div>
+      <span class="eyebrow">Quem compra, volta</span>
+      <h2>O que dizem de nós.</h2>
+      <p>De parceiros B2B ao consumidor final — a experiência Trem Bão fala por si.</p>
+    </div>
+    <div class="depoimentos-grid">
+      <div class="atacado-depoimento">
+        <div class="prova-meta">
+          <div class="prova-icon">@</div>
+          <div>
+            <div class="prova-nome">@o.barcelos</div>
+            <div class="prova-tipo">Parceiro B2B · Instagram</div>
+          </div>
+        </div>
+        <div class="prova-stars">★ ★ ★ ★ ★</div>
+        <p class="prova-texto">
+          Produto de qualidade. <strong>Trabalho com a marca há quase um ano</strong> e posso dizer que é de excelente qualidade!
+        </p>
+      </div>
+      <div class="atacado-depoimento">
+        <div class="prova-meta">
+          <div class="prova-icon" style="background: var(--creme);">G</div>
+          <div>
+            <div class="prova-nome">Welington Silva</div>
+            <div class="prova-tipo">Avaliação Google</div>
+          </div>
+        </div>
+        <div class="prova-stars">★ ★ ★ ★ ★</div>
+        <p class="prova-texto">
+          Desde a primeira vez que comprei os produtos da Trem Bão não parei mais. São produtos de excelente qualidade, <strong>bem temperado, tempero excepcional</strong>. Sem palavras — é só vocês comprando e conferindo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== PÁGINA 6 — CONTATO ========== -->
+<section id="contato" class="page">
+
+  <!-- TELA 1 — Loja da Fábrica (fundo bordô cheio) -->
+  <div class="contato-hero">
+    <div class="contato-hero-grid">
+      <div>
+        <span class="eyebrow" style="color: var(--dourado-claro);">Loja da Fábrica</span>
+        <h1>Nossa fábrica tem porta.</h1>
+        <p>A Trem Bão não é endereço virtual. É fábrica, com inspeção ativa e loja aberta para quem quiser conhecer antes de comprar.</p>
+        <div class="contato-endereco">
+          <strong>Onde fica</strong>
+          <div class="contato-endereco-rua">
+            Rua João Patrício Araújo, 325<br>
+            Veneza 1 — Ipatinga / MG
+          </div>
+        </div>
+      </div>
+      <div class="contato-hero-image">
+        <img src="img/loja-fabrica.jpg" alt="Loja da Fábrica Trem Bão em Ipatinga">
+      </div>
+    </div>
+  </div>
+
+  <!-- TELA 2 — Canais de contato -->
+  <div class="screen">
+    <div class="page-header">
+      <span class="eyebrow">Fale conosco</span>
+      <h2>Canais diretos.</h2>
+      <p>Seja cliente antigo ou esteja aqui pela primeira vez — chegue pelo canal que funcionar melhor para você.</p>
+    </div>
+    <div class="canais-grid">
+      <a href="https://wa.me/5531988455576" class="canal-card" target="_blank" rel="noopener">
+        <div class="canal-icon icon-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+        </div>
+        <div class="canal-label">Telefone · WhatsApp</div>
+        <div class="canal-info">(31) 98845-5576</div>
+      </a>
+      <a href="https://instagram.com/trembaoalimentos_" class="canal-card" target="_blank" rel="noopener">
+        <div class="canal-icon icon-instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3"/>
+          </svg>
+        </div>
+        <div class="canal-label">Instagram</div>
+        <div class="canal-info">@trembaoalimentos_</div>
+      </a>
+      <a href="https://trembaoalimentos.com.br" class="canal-card" target="_blank" rel="noopener">
+        <div class="canal-icon">
+          <img src="img/porquinho-square.png" alt="Trem Bão">
+        </div>
+        <div class="canal-label">Site</div>
+        <div class="canal-info">trembaoalimentos.com.br</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- TELA 3 — CTAs finais -->
+  <div class="screen">
+    <div class="contato-ctas-wrap">
+      <h2>Pronto para colocar o <span class="gold">Trem Bão</span> no seu balcão?</h2>
+      <p>Escolha o caminho que faz mais sentido para o seu momento.</p>
+      <div class="contato-botoes">
+        <a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site.%20Quero%20comprar%20para%20revender." class="btn-cta" target="_blank" rel="noopener">
+          🔄 Para Revender
+        </a>
+        <a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site.%20Quero%20ser%20cliente%20atacado." class="btn-cta" target="_blank" rel="noopener">
+          📦 Cliente atacado
+        </a>
+        <a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site.%20Gostaria%20de%20falar%20com%20o%20comercial." class="btn-cta btn-cta-outline" target="_blank" rel="noopener">
+          💬 Falar com o comercial
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ========== RODAPÉ FIXO (frase institucional) ========== -->
+<footer class="footer-fixed">
+  <div class="footer-inner">
+    <span class="footer-decor"></span>
+    <p class="footer-phrase">
+      <strong>TREM BÃO ALIMENTOS ®</strong> · Empresa registrada · <em>Selo S.I.M. 001</em>
+    </p>
+    <span class="footer-decor"></span>
+  </div>
+</footer>
+
+<!-- ========== BOTÃO FLUTUANTE WHATSAPP ========== -->
+<a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site%20da%20Trem%20Bão.%20Gostaria%20de%20falar%20com%20vocês." class="whats-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script>
+  // ========== NAVEGAÇÃO SPA ==========
+  const pages = document.querySelectorAll('.page');
+  const navLinks = document.querySelectorAll('[data-page]');
+  const nav = document.getElementById('mainNav');
+  const menuToggle = document.getElementById('menuToggle');
+
+  function showPage(id) {
+    pages.forEach(p => p.classList.remove('active'));
+    const target = document.getElementById(id);
+    if (target) {
+      target.classList.add('active');
+    } else {
+      document.getElementById('inicio').classList.add('active');
+      id = 'inicio';
+    }
+
+    navLinks.forEach(l => {
+      if (l.dataset.page === id) l.classList.add('active');
+      else l.classList.remove('active');
+    });
+
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    history.pushState(null, '', '#' + id);
+
+    if (nav.classList.contains('open')) nav.classList.remove('open');
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      showPage(link.dataset.page);
+    });
+  });
+
+  // Responder ao botão voltar/avançar
+  window.addEventListener('popstate', () => {
+    const hash = window.location.hash.slice(1) || 'inicio';
+    showPage(hash);
+  });
+
+  // Menu mobile toggle
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+
+  // Ao carregar, ler hash da URL
+  window.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.slice(1);
+    if (hash) showPage(hash);
+  });
+
+  // ========== CARROSSEL STORYBOARD ==========
+  const track = document.getElementById('carrosselTrack');
+  const slides = track ? track.querySelectorAll('.slide') : [];
+  const dots = document.querySelectorAll('#sbDots .dot');
+  const prevBtn = document.getElementById('sbPrev');
+  const nextBtn = document.getElementById('sbNext');
+  let sbCurrent = 0;
+
+  function sbGoTo(i) {
+    if (!track || slides.length === 0) return;
+    sbCurrent = Math.max(0, Math.min(i, slides.length - 1));
+    track.style.transform = `translateX(-${sbCurrent * 100}%)`;
+    dots.forEach((d, idx) => d.classList.toggle('active', idx === sbCurrent));
+    if (prevBtn) prevBtn.disabled = (sbCurrent === 0);
+    if (nextBtn) nextBtn.disabled = (sbCurrent === slides.length - 1);
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', () => sbGoTo(sbCurrent - 1));
+  if (nextBtn) nextBtn.addEventListener('click', () => sbGoTo(sbCurrent + 1));
+  dots.forEach((d, idx) => d.addEventListener('click', () => sbGoTo(idx)));
+
+  // Inicializar
+  if (track) sbGoTo(0);
+</script>
+
+</body>
+</html>
