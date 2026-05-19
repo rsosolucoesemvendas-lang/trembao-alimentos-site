@@ -19,6 +19,15 @@
   <script defer src="/_vercel/insights/script.js"></script>
   <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wta14f3xhv");
+  </script>
+
   <style>
     /* ========== RESET + BASE ========== */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -2409,6 +2418,34 @@
     <span class="footer-decor"></span>
   </div>
 </footer>
+
+<!-- ========== BANNER DE COOKIES (LGPD) ========== -->
+<div id="lgpd-banner" style="display:none; position:fixed; bottom:70px; left:50%; transform:translateX(-50%); max-width:560px; width:calc(100% - 32px); background:#3A0A0A; color:#F5EFE7; padding:16px 20px; border-radius:14px; box-shadow:0 12px 40px rgba(0,0,0,.35); border:1px solid #C9A04F; z-index:9998; font-family:'Inter', sans-serif; font-size:13px; line-height:1.5;">
+  <div style="display:flex; gap:14px; align-items:center; flex-wrap:wrap;">
+    <div style="flex:1; min-width:200px;">
+      🍪 Utilizamos cookies para entender como você navega no site e melhorar a sua experiência. Ao continuar, você concorda com nossa coleta de dados de uso.
+    </div>
+    <button id="lgpd-aceitar" type="button" style="background:#C9A04F; color:#3A0A0A; border:none; padding:10px 22px; border-radius:8px; font-weight:700; cursor:pointer; font-family:inherit; font-size:13px; white-space:nowrap;">
+      Entendi
+    </button>
+  </div>
+</div>
+<script>
+  (function () {
+    var banner = document.getElementById('lgpd-banner');
+    var btn = document.getElementById('lgpd-aceitar');
+    if (!banner || !btn) return;
+    try {
+      if (!localStorage.getItem('lgpd_aceito_v1')) {
+        banner.style.display = 'block';
+      }
+    } catch (e) { banner.style.display = 'block'; }
+    btn.addEventListener('click', function () {
+      try { localStorage.setItem('lgpd_aceito_v1', '1'); } catch (e) {}
+      banner.style.display = 'none';
+    });
+  })();
+</script>
 
 <!-- ========== BOTÃO FLUTUANTE WHATSAPP ========== -->
 <a href="https://wa.me/5531988455576?text=Olá!%20Vim%20pelo%20site%20da%20Trem%20Bão.%20Gostaria%20de%20falar%20com%20vocês." class="whats-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
