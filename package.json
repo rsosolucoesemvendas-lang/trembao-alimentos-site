@@ -1,0 +1,20 @@
+{
+  "name": "trembao-alimentos-site",
+  "version": "1.0.0",
+  "description": "Trem Bão Alimentos - Website institucional",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linting configured for static HTML'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "keywords": [
+    "static",
+    "html"
+  ],
+  "author": "",
+  "license": "ISC"
+}
